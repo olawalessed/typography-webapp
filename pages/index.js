@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import Hero from "../components/fixed/Hero";
+import LandingPage from "../components/fixed/LandingPage";
 
 export default function Index() {
   return (
     <Layout>
-      <div className="mx-auto">
-        <Hero />
-      </div>
+      
+      <LandingPage />  
+      
     </Layout>
   );
 }

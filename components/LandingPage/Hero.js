@@ -3,11 +3,11 @@ import Image from 'next/image'
 export default function Hero() {
     return (
       <section className="relative">
-        <div className="container">
+        
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
             {/* Content */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h2 className="text-my-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+              <h2 className="text-my-blue font-black text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
                 A simple Book Publishing Platform
               </h2>
               <p className="text-my-grey text-lg text-center lg:text-left mb-6">
@@ -39,7 +39,7 @@ export default function Hero() {
             {/* Rounded rectangle */}
             <div className="hidden md:block overflow-hidden bg-my-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-20 lg:-right-36"></div>
           </div>
-        </div>
+        
       </section>
     );
 }

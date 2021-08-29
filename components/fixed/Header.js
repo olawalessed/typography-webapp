@@ -20,7 +20,7 @@ export default function Header() {
               <div className="hidden sm:flex flex-1 justify-end items-center gap-3">
                 <button
                   type="button"
-                  className="bg-my-red hover:bg-my-blue hover:text-white text-white rounded-md justify-end uppercase py-2
+                  className="bg-my-blue hover:text-my-red text-white rounded-md justify-end uppercase py-2
                 px-5"
                 >
                   Login

@@ -1,7 +1,9 @@
 export default function Footer() {
     return (
         <div>
-            <h3>Hello Footer</h3>
+            <section className="bg-my-blue w-full py-2 h-8">
+
+            </section>
         </div>
     )
 }
