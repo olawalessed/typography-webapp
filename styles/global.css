@@ -10,7 +10,7 @@
 }
 
 .btn-purple {
-    @apply bg-my-blue text-white
+    @apply bg-my-purple text-white
 }
 
 .btn-white {

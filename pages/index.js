@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import Hero from "../components/fixed/HeroSearch";
+import Hero from "../components/fixed/Hero";
 
 export default function Index() {
   return (
