@@ -16,11 +16,11 @@ export default function FeatureThree() {
           </div>
           {/* Content */}
           <div className="flex flex-1 flex-col items-center lg:items-start">
-            <h1 className="text-3xl text-my-blue">
-              Share your book with friends
+            <h1 className="text-3xl text-center text-my-blue">
+              Share your curated Bookmark anywhere
             </h1>
             <p className="text-md text-my-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Get access to tons of books on your device anytime, any day
+              Show your friends and close ones a feel of what you've discovered, be it a latest site to watch the funniest pikachu. You can do share.
             </p>
             {/* Button */}
             <button

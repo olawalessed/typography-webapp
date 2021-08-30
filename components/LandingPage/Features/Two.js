@@ -4,16 +4,16 @@ import RoundedTriangleRight from "../Fixed/RoundedTriangleRight";
 export default function FeatureTwo() {
   return (
     <div >
-      {/* Feature One */}
+      {/* Feature Two */}
       <div className="relative mt-20 lg:mt-24">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-x-24">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-x-24">
           {/* Content */}
           <div className="flex flex-1 flex-col items-center lg:items-start">
-            <h1 className="text-3xl text-my-blue">
+            <h1 className="text-3xl text-center text-my-blue">
               Intelligent recommendations
             </h1>
             <p className="text-md text-my-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-              Our powerful recommendation feature will help you find the best of books to learn at the four corner of your screen
+              Our powerful recommendation feature will help you curate websites based on your history, organize them and you can always add or remove anytime
             </p>
             {/* Button */}
             <button

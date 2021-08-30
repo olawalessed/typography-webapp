@@ -11,7 +11,6 @@ export default function LandingPage() {
             <Features />
             <DownloadSection />
             <FAQs />
-            <CallToActionSection />
         </div>
     )
 }

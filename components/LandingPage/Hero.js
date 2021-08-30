@@ -8,11 +8,10 @@ export default function Hero() {
             {/* Content */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
               <h2 className="text-my-blue font-black text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
-                A simple Book Publishing Platform
+                A simple Bookmarking Browser Extension
               </h2>
               <p className="text-my-grey text-lg text-center lg:text-left mb-6">
-                A clean and simple interface to read the best of boos and learn
-                new things everyday
+                A clean and simple interface to organize all of your browsing history activities
               </p>
               <div className="flex justify-center flex-wrap gap-6">
                 <button

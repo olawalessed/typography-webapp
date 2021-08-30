@@ -1,16 +1,16 @@
 export default function DownloadSection() {
     return (
       <div>
-        <section className="py-20 mt-20">
+        <section className="py-10 mt-20">
           {/* Download Section Heading */}
           <div className="sm:w-3/4 lg:w-8/12 mx-auto px-2">
-            <h1 className="text-3xl text-center text-my-blue">
+            <h1 className="text-3xl text-center font-black text-my-blue">
               Download Application and Extension
             </h1>
             <p className="text-my-grey text-center my-4">
               We've got more features for you and loads of it in pipeline, you
               can reachout to us to tell us what you want in the coming release.
-              Download a copy now to explore!
+              Download now to explore!
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export default function DownloadSection() {
             </div>
 
             {/* Card Two */}
-            <div className="flex flex-col rounded-md shadow-md items-center">
+            <div className="flex flex-col py-12 rounded-md shadow-md items-center">
               <div className="p-6 flex flex-col items-center">
                 <img src="https://res.cloudinary.com/olawalessed/image/upload/v1630222026/next-tailwind%20pictures/svg/logo-firefox_orufsi.svg" />
                 <h3 className="mt-5 mb-2 text-my-blue text-lg">

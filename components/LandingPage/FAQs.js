@@ -1,8 +1,13 @@
+import { useState } from "react";
+import { Icon, Accordion } from "semantic-ui-react"
+
 export default function FaqSection() {
+
     return (
       <section className="bg-my-white py-20">
         <div className="sm:w-3/4 lg:w-8/12 mx-auto px-2">
-          <h1 className="text-3xl text-center text-my-blue">
+          
+          <h1 className="text-3xl font-black text-center text-my-blue">
             Frequently Asked Questions
           </h1>
           <p className="text-my-grey text-center my-4">
@@ -14,6 +19,7 @@ export default function FaqSection() {
         <div className="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
           <div className="flex items-center border-b py-4">
             <span className="flex-1">What is a bookmark</span>
+            <Icon name="chevron down" color="grey" />
             <i className="text-my-purple fas fa-chevron-down"></i>
           </div>
           <div className="flex items-center border-b py-4">

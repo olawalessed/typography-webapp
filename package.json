@@ -4,6 +4,7 @@
   "description": "Dobook web app",
   "dependencies": {
     "@artsy/fresnel": "^1.9.0",
+    "@heroicons/react": "^1.0.4",
     "cookie": "^0.4.1",
     "jwt-decode": "^3.1.2",
     "next": "^10.2.3",
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
