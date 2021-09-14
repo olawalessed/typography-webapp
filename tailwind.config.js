@@ -14,6 +14,10 @@ module.exports = {
         "my-blue": "#242A45",
         "my-grey": "#9194a2",
         "my-white": "#f7f7f7",
+      },
+      fontSize: {
+        "xxs": "10.5px",
+        "xxx": "4px"
       }
     },
     container: {

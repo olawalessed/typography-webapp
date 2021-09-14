@@ -75,3 +75,59 @@ const Footer = () => {
 
 
 export default Footer
+
+
+
+
+
+
+{/* Other Content */}
+          <div className="grid grid-cols-3 h-full">
+            {/* left Grid */}
+            <div className="col-span-2 self-stretch">
+              <h1 className="text-6xl">36 Days of Typography</h1>
+
+              <div className="flex space-x-5">
+                <div>
+                  <p>
+                    Like many creatives this year, I was just looking for a
+                    design inspiration on behance, then I stumbled on this nice
+                    typography work made by Tim Arnold, I give all credits to
+                    him for this awesome work. It was his work for the annual
+                    8th edition of 36 Days of Type. An annual event where
+                    designers & artists from around the globe create one letter
+                    or number every day across a total of 36 days.
+                  </p>
+                </div>
+                <div>
+                  I approached the conversion of this into a web app using
+                  Tailwind on Next JS. As a designer, I was switching to
+                  becoming User Interface developer (with Frontend Engineering).
+                  I'm really pleased to have worked on this conversion to help
+                  speed up my tailwind and general css knowledge to merge normal
+                  design knowledge and web development. Thanks Tim, Thanks
+                  everyone.
+                </div>
+              </div>
+            <div className="">
+              <div className="flex space-x-6">
+                <div>
+                  <p>Volume 08</p>
+                </div>
+                <div>
+                  <p>Volume 08</p>
+                </div>
+                <div>
+                  <p>Volume 08</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            {/* Right Grid */}
+            <div className="col-span-1 self-stretch">
+              <div className="pb-20">
+                <h1>Animated text here</h1>
+              </div>
+            </div>
+          </div>
