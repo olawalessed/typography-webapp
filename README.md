@@ -1,5 +1,5 @@
 I converted the work of Tim Arnold on Behance into a web page.
-from this link here: https://www.behance.net/gallery/118034461/36-Days-of-Type-2021
+from this link [here](https://www.behance.net/gallery/118034461/36-Days-of-Type-2021)
 
 This is not to steal his work as all design credits go to him.
 
@@ -19,3 +19,5 @@ I am Olawale Samuel, a product designer and frontend developer.
 
 
 Thanks for viewing this. 
+
+Check out live [here](https://typography-webapp.vercel.app/).
