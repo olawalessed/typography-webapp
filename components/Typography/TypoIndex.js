@@ -54,11 +54,12 @@ export default function TypoIndex() {
         {/* Navigator */}
         <div>
           <div className="mt-1 mx-20 overflow-hidden">
-            <Link href="/">
-              <button className="px-5 rounded-full hover:border-gray-400">
-                <Icon name="arrow left" size="small" /> Go Back
-              </button>
-            </Link>
+            <button
+              className="px-5 rounded-full hover:border-gray-400"
+              onClick={router.back}
+            >
+              <Icon name="arrow left" size="small" /> Go Back
+            </button>
           </div>
         </div>
         {/* Straight line */}

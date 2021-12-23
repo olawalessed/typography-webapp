@@ -1,20 +1,21 @@
 import Link from "next/link";
 import { Icon } from "semantic-ui-react";
 import { svgUrl } from "./TypoIndex";
-import {allTypograhy} from "../../utils/typographySVG.json"
+import allTypograhy from "../../utils/typographySVG.json"
 import { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function SingleTypo() {
 
 
-    console.log(allTypograhy.content.length)
+    console.log(allTypograhy.content)
 
     const router = useRouter()
     const {id} = router.query
     
     console.log(id)
 
+    
     
 
     return (
@@ -27,11 +28,12 @@ export default function SingleTypo() {
           {/* Navigator */}
 
           <div className="mt-1">
-            <Link href="/">
-              <button className="px-5 rounded-full hover:border-gray-400">
-                <Icon name="arrow left" size="small" /> Go Back
-              </button>
-            </Link>
+            <button
+              className="px-5 rounded-full hover:border-gray-400"
+              onClick={router.back}
+            >
+              <Icon name="arrow left" size="small" /> Go Back
+            </button>
           </div>
 
           {/* Straight line */}
@@ -43,7 +45,7 @@ export default function SingleTypo() {
             {/* Left part */}
 
             <div className="flex justify-center items-center">
-              <div className="relative w-4/5 pb-5 mt-5">
+              <div className="relative w-3/5 pb-5 mt-5">
                 <Image
                   src={allTypograhy.content[id].src}
                   layout="responsive"
@@ -56,23 +58,64 @@ export default function SingleTypo() {
 
             {/* Right part */}
             <div className="md:p-10 md:mt-10">
-              <div className="block">
-                <h1 className="text-9xl">{allTypograhy.content[id].name}</h1>
-                <p>{allTypograhy.content[id].details}</p>
+              <div className="block relative h-full space-y-2">
+                <h1 className="text-9xl font-serif">
+                  {allTypograhy.content[id].name}
+                </h1>
+                <p className="font-sans">{allTypograhy.content[id].details}</p>
                 <cite>
                   <small>Source: Wikipedia</small>
                 </cite>
 
                 {/* Navigation */}
-                <div className="absolute bottom-20 right-20">
-                  <Link href={{
-                      pathname: `/typography/alltypo/${allTypograhy.content[+id + 1].name}`,
-                      query: { type: `${allTypograhy.content[+id + 1].type}`, id: `${+id+1}` },
-                    }}>
-                    <button className="text-4xl">
-                      {allTypograhy.content[+id + 1].name} &rarr;
-                    </button>
-                  </Link>
+                <div className="absolute inset-x-0 bottom-20 w-full">
+                  <div className="flex w-full justify-between items-center">
+                    {/* Forward Navigation */}
+                    {id < 1 || id === 0 ? (
+                      <div className="w-8 h-8 bg-gray-700 rounded-full" />
+                    ) : (
+                      <Link
+                        href={{
+                          pathname: `/typography/alltypo/${
+                            allTypograhy.content[+id - 1].name
+                          }`,
+                          query: {
+                            type: `${allTypograhy.content[+id - 1].type}`,
+                            id: `${+id - 1}`,
+                          },
+                        }}
+                      >
+                        <button className="text-4xl">
+                          &larr;
+                          {allTypograhy.content[+id - 1].name}
+                        </button>
+                      </Link>
+                    )}
+
+                    {/* Forward Navaigation */}
+                    {id < allTypograhy.content.length - 1 ? (
+                      <Link
+                        href={{
+                          pathname: `/typography/alltypo/${
+                            allTypograhy.content[+id + 1].name
+                          }`,
+                          query: {
+                            type: `${allTypograhy.content[+id + 1].type}`,
+                            id: `${+id + 1}`,
+                          },
+                        }}
+                      >
+                        <button className="text-4xl">
+                          {allTypograhy.content[+id + 1].name} &rarr;
+                        </button>
+                      </Link>
+                    ) : (
+                      <div className="w-8 h-8 bg-gray-700 rounded-full" />
+                    )}
+                  </div>
+                  <p className="text-gray-600 text-center tracking-tight font-light">
+                    Navigation
+                  </p>
                 </div>
               </div>
             </div>
