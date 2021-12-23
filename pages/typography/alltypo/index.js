@@ -2,8 +2,18 @@ import Link from "next/link";
 import { Icon } from "semantic-ui-react";
 import Image from "next/image";
 import { svgUrl } from "../../../components/Typography/TypoIndex";
+import { useRouter } from "next/router";
 
 export default function allTypography() {
+
+  const router = useRouter()
+
+//   const handleViewSingleTypography = () => {
+//  return router.push({`/typography/alltypo/`});
+  
+
+//   }
+
   return (
     <div className="flex bg-black min-h-screen text-white overflow-hidden">
       {/* Main content */}
@@ -24,17 +34,12 @@ export default function allTypography() {
         </div>
 
         <div className="grid grid-cols-4 gap-0.5 mx-20 overflow-hidden">
-          {/* {svgUrl.map((art) => {
-              return (
-                <div>
-                  <Image src={art} width={200} height={200} />
-                  </div>
-            )
-          })}   */}
+          
 
-          {svgUrl.map((art) => {
+          {/* Mapping and showing all Typography */}
+          {svgUrl.map((art, index) => {
             return (
-              <div className="flex-col space-y-3 items-center hover:bg-blue-600  w-60 px-2 py-5">
+              <div key={`typo-${index}`} className="flex-col space-y-3 items-center hover:bg-blue-600  w-60 px-2 py-5">
                 {/* Top Titles */}
                 <div className="flex justify-between items-start">
                   <div className="flex space-x-4 justify-self-start">
@@ -57,7 +62,7 @@ export default function allTypography() {
                 {/* Image */}
                 <div className="py-4 w-full">
                   <Image
-                    src={art}
+                    src={art.src}
                     width={250}
                     height={250}
                     className="mx-auto"
@@ -65,12 +70,19 @@ export default function allTypography() {
                 </div>
                 {/* Button */}
                 <div className="px-5 pb-5">
-                  <button
-                    type="button"
-                    className="w-full rounded-full hover:underline"
+                  <Link
+                    href={{
+                      pathname: `/typography/alltypo/${art.name}`,
+                      query: { type: `${art.type}`, id: `${index}` },
+                    }}
                   >
-                    View Typography
-                  </button>
+                    <button
+                      type="button"
+                      className="w-full rounded-full hover:underline"
+                    >
+                      View Typography
+                    </button>
+                  </Link>
                 </div>
               </div>
             );

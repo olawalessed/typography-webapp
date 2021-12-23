@@ -1,0 +1,225 @@
+
+
+{"allTypograhy": {
+    "content": [
+      {
+        "name": "A",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/a_dsdtof.svg",
+        "details": "A, or a, is the first letter and the first vowel of the modern English alphabet and the ISO basic Latin alphabet.[1][2] Its name in English is a (pronounced /ˈeɪ/), plural aes.[nb 1] It is similar in shape to the Ancient Greek letter alpha, from which it derives."
+        
+      },
+      {
+        "name": "B",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/b_l4ibad.svg",
+        "details": "B, or b, is the second letter of the Latin-script alphabet. Its name in English is bee (pronounced /ˈbiː/), plural bees.[1][2] It represents the voiced bilabial stop in many languages, including English. In some other languages, it is used to represent other bilabial consonants."
+      },
+      {
+        "name": "C",
+
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/c_egzwbm.svg",
+        "details": "C, or c, is the third letter in the English and ISO basic Latin alphabets. Its name in English is cee (pronounced /ˈsiː/), plural cees."
+      },
+      {
+        "name": "D",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/d_acftks.svg",
+        "details": "D, or d, is the fourth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is dee (pronounced /ˈdiː/), plural dees."
+      },
+      {
+        "name": "E",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/e_wlha8k.svg",
+        "details": "E, or e, is the fifth letter and the second vowel letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is e (pronounced /ˈiː/); plural ees,[1] Es or E's.[2] It is the most commonly used letter in many languages."
+      },
+      {
+        "name": "F",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/f_mgimpb.svg",
+        "details": "F, or f, is the sixth letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is ef[1] (pronounced /ˈɛf/), and the plural is efs."
+      },
+      {
+        "name": "G",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/g_bkmn6u.svg",
+        "details": "G, or g, is the seventh letter of the ISO basic Latin alphabet. Its name in English is gee (pronounced /ˈdʒiː/), plural gees."
+      },
+      {
+        "name": "H",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/h_sope4z.svg",
+        "details": "H, or h, is the eighth letter in the ISO basic Latin alphabet. Its name in English is aitch (pronounced /ˈeɪtʃ/, plural aitches), or regionally haitch /ˈheɪtʃ/."
+      },
+      {
+        "name": "I",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/i_ecfxwv.svg",
+        "details": "I, or i, is the ninth letter and the third vowel letter of the modern English alphabet and the ISO basic Latin alphabet.[1] Its name in English is i (pronounced /ˈaɪ/), plural ies."
+      },
+      {
+        "name": "J",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/j_vculbl.svg",
+        "details": "J, or j, is the tenth letter in the modern English alphabet and the ISO basic Latin alphabet. Its usual name in English is jay (pronounced /ˈdʒeɪ/), with a now-uncommon variant jy /ˈdʒaɪ/.[1][2] When used in the International Phonetic Alphabet for the y sound, it may be called yod or jod (pronounced /ˈjɒd/ or /ˈjoʊd/)."
+      },
+      {
+        "name": "K",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/k_gwfhbi.svg",
+        "details": "K, or k, is the eleventh letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is kay (pronounced /ˈkeɪ/), plural kays.[1] The letter K usually represents the voiceless velar plosive."
+      },
+      {
+        "name": "L",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/l_prlmwo.svg",
+        "details": "L, or l, is the twelfth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is el (pronounced /ˈɛl/), plural els."
+      },
+      {
+        "name": "M",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/m_ux95nh.svg",
+        "details": "M, or m, is the thirteenth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is em (pronounced /ˈɛm/), plural ems."
+      },
+      {
+        "name": "N",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/n_fmgozt.svg",
+        "details": "N, or n, is the fourteenth letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is en (pronounced /ˈɛn/), plural ens."
+      },
+      {
+        "name": "O",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/o_l6toqp.svg",
+        "details": "O, or o, is the fifteenth letter in the ISO basic Latin alphabet and the fourth vowel letter in the modern English alphabet. Its name in English is o (pronounced /ˈoʊ/), plural oes."
+      },
+      {
+        "name": "P",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/p_xitw9w.svg",
+        "details": "P, or p, is the sixteenth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is pee (pronounced /ˈpiː/), plural pees."
+      },
+      {
+        "name": "Q",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/q_znkd51.svg",
+        "details": "Q, or q, is the seventeenth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is cue (pronounced /ˈkjuː/), plural cues."
+      },
+      {
+        "name": "R",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/r_kcntvg.svg",
+        "details": "R, or r, is the eighteenth letter of the modern English alphabet and the ISO basic Latin alphabet. Its name in English is ar (pronounced /ˈɑːr/), plural ars,[1] or in Ireland or /ˈɔːr/."
+      },
+      {
+        "name": "S",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/s_h0g1lk.svg",
+        "details": "S, or s, is the nineteenth letter in the Modern English alphabet and the ISO basic Latin alphabet. Its name in English is ess[1] (pronounced /ˈɛs/), plural esses."
+      },
+      {
+        "name": "T",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/t_zlmjp7.svg",
+        "details": "T, or t, is the twentieth letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is tee (pronounced /ˈtiː/), plural tees.[1] It is derived from the Semitic letters taw (ת, ܬ, ت) via the Greek letter τ (tau). In English, it is most commonly used to represent the voiceless alveolar plosive, a sound it also denotes in the International Phonetic Alphabet. It is the most commonly used consonant and the second most common letter in English-language texts."
+      },
+      {
+        "name": "U",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/u_r0a7ts.svg",
+        "details": "U, or u, is the twenty-first and sixth-to-last letter of the ISO basic Latin alphabet and the fifth vowel letter of the modern English alphabet. Its name in English is u (pronounced /ˈjuː/), plural ues."
+      },
+      {
+        "name": "V",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/v_mcaa6b.svg",
+        "details": "V, or v, is the twenty-second and fifth-to-last letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is vee (pronounced /ˈviː/), plural vees."
+      },
+      {
+        "name": "W",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/w_sfau64.svg",
+        "details": "W, or w, is the twenty-third and fourth-to-last letter of the modern English and ISO basic Latin alphabets. It usually represents a consonant, but in some languages it represents a vowel. Its name in English is double-u,[note 1] plural double-ues."
+      },
+      {
+        "name": "X",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/x_tdp59f.svg",
+        "details": "X, or x, is the twenty-fourth and third-to-last letter in the modern English alphabet and the ISO basic Latin alphabet. Its name in English is 'ex' (pronounced /ˈɛks/), plural exes."
+      },
+      {
+        "name": "Y",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/y_azhy3s.svg",
+        "details": "Y, or y, is the twenty-fifth and penultimate letter of the ISO basic Latin alphabet and the sixth (or seventh if including W) vowel letter[1] of the modern English alphabet. In the English writing system, it mostly represents a vowel and seldom a consonant, and in other orthographies it may represent a vowel or a consonant. Its name in English is wye[2] (pronounced /ˈwaɪ/), plural wyes."
+      },
+      {
+        "name": "Z",
+        "type": "alphabet",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/z_uj3l1n.svg",
+        "details": "Z, or z, is the twenty-sixth and final letter of the modern English alphabet and the ISO basic Latin alphabet. Its usual names in English are zed (pronounced /ˈzɛd/) and zee /ˈziː/, with an occasional archaic variant izzard /ˈɪzərd/."
+      },
+      {
+        "name": "0",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/0_uweuk8.svg",
+        "details": "0 (zero) is a number,[1] and the numerical digit used to represent that number in numerals. It fulfills a central role in mathematics as the additive identity of the integers, real numbers, and many other algebraic structures. As a digit, 0 is used as a placeholder in place value systems. Names for the number 0 in English include zero, nought (UK), naught (US; /nɔːt/), nil, or—in contexts where at least one adjacent digit distinguishes it from the letter 'O'—oh or o (/oʊ/). Informal or slang terms for zero include zilch and zip.[2] Ought and aught (/ɔːt/),[3] as well as cipher,[4] have also been used historically."
+      },
+      {
+        "name": "1",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/1_noh3gj.svg",
+        "details": "1 (one, also called unit, and unity) is a number and a numerical digit used to represent that number in numerals. It represents a single entity, the unit of counting or measurement. For example, a line segment of unit length is a line segment of length 1. In conventions of sign where zero is considered neither positive nor negative, 1 is the first and smallest positive integer.[1] It is also sometimes considered the first of the infinite sequence of natural numbers, followed by 2, although by other definitions 1 is the second natural number, following 0."
+      },
+      {
+        "name": "2",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/2_moitvl.svg",
+        "details": "2 (two) is a number, numeral and digit. It is the natural number following 1 and preceding 3. It is the smallest and only even prime number. Because it forms the basis of a duality, it has religious and spiritual significance in many cultures."
+      },
+      {
+        "name": "3",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/3_hh25xg.svg",
+        "details": "3 (three) is a number, numeral and digit. It is the natural number following 2 and preceding 4, and is the smallest odd prime number and the only prime preceding a square number. It has religious or cultural significance in many societies."
+      },
+      {
+        "name": "4",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/4_p2ro3b.svg",
+        "details": "4 (four) is a number, numeral and digit. It is the natural number following 3 and preceding 5. It is the smallest composite number, and is considered unlucky in many East Asian cultures."
+      },
+      {
+        "name": "5",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/5_e94cct.svg",
+        "details": "5 (five) is a number, numeral and digit. It is the natural number, and cardinal number, following 4 and preceding 6, and is a prime number. It has attained significance throughout history in part because typical humans have five digits on each hand."
+      },
+      {
+        "name": "6",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/6_rqdxud.svg",
+        "details": "6 (six) is the natural number following 5 and preceding 7. It is a composite number and the smallest perfect number."
+      },
+      {
+        "name": "7",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/7_wxwkky.svg",
+        "details": "7 (seven) is the natural number following 6 and preceding 8. It is the only prime number preceding a cube. The seven Classical planets resulted in seven being the number of days in a week.[citation needed] It is often considered lucky in Western culture and is often seen as highly symbolic. Unlike Western culture, in Vietnamese culture, the number seven is sometimes considered unlucky."
+      },
+      {
+        "name": "8",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/8_cfwk73.svg",
+        "details": "8 (eight) is the natural number following 7 and preceding 9."
+      },
+      {
+        "name": "9",
+        "type": "numerals",
+        "src": "https://res.cloudinary.com/olawalessed/image/upload/v1631539876/Typography%20project/SVG/9_o1w3tq.svg",
+        "details": "9 (nine) is the natural number following 8 and preceding 10."
+      }
+    ]
+}}
+

@@ -124,7 +124,7 @@ export default function TypoIndex() {
                 {/* <InfiniteLoop data={svgUrl} duration={700} size={250} /> */}
 
                 <Image
-                  src={svgUrl[current]}
+                  src={svgUrl[current].src}
                   width={250}
                   height={250}
                   className=""
@@ -177,41 +177,186 @@ export const paragraphTwo = "I approached the conversion of this into a web app 
 
 
 export const svgUrl = [
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/a_dsdtof.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/b_l4ibad.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/c_egzwbm.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/d_acftks.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/e_wlha8k.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/f_mgimpb.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/g_bkmn6u.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/h_sope4z.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/i_ecfxwv.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/j_vculbl.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/k_gwfhbi.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/l_prlmwo.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/m_ux95nh.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/n_fmgozt.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/o_l6toqp.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/p_xitw9w.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/q_znkd51.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/r_kcntvg.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/s_h0g1lk.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/t_zlmjp7.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/u_r0a7ts.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/v_mcaa6b.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/w_sfau64.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/x_tdp59f.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/y_azhy3s.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/z_uj3l1n.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/0_uweuk8.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/1_noh3gj.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/2_moitvl.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/3_hh25xg.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/4_p2ro3b.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/5_e94cct.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/6_rqdxud.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/7_wxwkky.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/8_cfwk73.svg",
-  "https://res.cloudinary.com/olawalessed/image/upload/v1631539876/Typography%20project/SVG/9_o1w3tq.svg",
+  {
+    name: "A",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/a_dsdtof.svg",
+  },
+  {
+    name: "B",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/b_l4ibad.svg",
+  },
+  {
+    name: "C",
+
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/c_egzwbm.svg",
+  },
+  {
+    name: "D",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/d_acftks.svg",
+  },
+  {
+    name: "E",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539877/Typography%20project/SVG/e_wlha8k.svg",
+  },
+  {
+    name: "F",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/f_mgimpb.svg",
+  },
+  {
+    name: "G",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/g_bkmn6u.svg",
+  },
+  {
+    name: "H",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539878/Typography%20project/SVG/h_sope4z.svg",
+  },
+  {
+    name: "I",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/i_ecfxwv.svg",
+  },
+  {
+    name: "J",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/j_vculbl.svg",
+  },
+  {
+    name: "K",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/k_gwfhbi.svg",
+  },
+  {
+    name: "L",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/l_prlmwo.svg",
+  },
+  {
+    name: "M",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/m_ux95nh.svg",
+  },
+  {
+    name: "N",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539880/Typography%20project/SVG/n_fmgozt.svg",
+  },
+  {
+    name: "O",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/o_l6toqp.svg",
+  },
+  {
+    name: "P",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/p_xitw9w.svg",
+  },
+  {
+    name: "Q",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/q_znkd51.svg",
+  },
+  {
+    name: "R",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/r_kcntvg.svg",
+  },
+  {
+    name: "S",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/s_h0g1lk.svg",
+  },
+  {
+    name: "T",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/t_zlmjp7.svg",
+  },
+  {
+    name: "U",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539882/Typography%20project/SVG/u_r0a7ts.svg",
+  },
+  {
+    name: "V",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/v_mcaa6b.svg",
+  },
+  {
+    name: "W",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/w_sfau64.svg",
+  },
+  {
+    name: "X",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/x_tdp59f.svg",
+  },
+  {
+    name: "Y",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539884/Typography%20project/SVG/y_azhy3s.svg",
+  },
+  {
+    name: "Z",
+    type: "alphabet",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/z_uj3l1n.svg",
+  },
+  {
+    name: "0",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/0_uweuk8.svg",
+  },
+  {
+    name: "1",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/1_noh3gj.svg",
+  },
+  {
+    name: "2",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/2_moitvl.svg",
+  },
+  {
+    name: "3",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/3_hh25xg.svg",
+  },
+  {
+    name: "4",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/4_p2ro3b.svg",
+  },
+  {
+    name: "5",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539873/Typography%20project/SVG/5_e94cct.svg",
+  },
+  {
+    name: "6",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/6_rqdxud.svg",
+  },
+  {
+    name: "7",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/7_wxwkky.svg",
+  },
+  {
+    name: "8",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539875/Typography%20project/SVG/8_cfwk73.svg",
+  },
+  {
+    name: "9",
+    type: "numerals",
+    src: "https://res.cloudinary.com/olawalessed/image/upload/v1631539876/Typography%20project/SVG/9_o1w3tq.svg",
+  },
 ];
 
