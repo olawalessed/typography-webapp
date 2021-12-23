@@ -2,13 +2,51 @@
 import InfiniteLoop from 'infinite-loop-animation'
 import Link from 'next/link';
 import router, { useRouter } from 'next/router'
-import {Icon} from "semantic-ui-react"
+import { useEffect, useState } from 'react';
+import { Icon } from "semantic-ui-react"
+import Image from 'next/image'
 
 export default function TypoIndex() {
 
   const goToTypo = () => {
     return router.push('/typography/alltypo')
   }
+
+  console.log(svgUrl.length)
+
+  // Counting state
+  const [current, setCurrent] = useState(0)
+
+  // Re-render page on item count
+  useEffect(() => {
+    
+    const timeout = setInterval(() => {
+        if (current < svgUrl.length - 1) {
+        typography.increment();
+        } else {
+          typography.returnZero()
+      }
+    }, 1000);
+    
+    return () => {
+      clearInterval(timeout)
+    }
+  }, [current])
+
+
+  const typography = {
+    // Increase count
+    increment: () => {
+      setCurrent(current + 1);
+  },
+  // Return count back to 0
+    returnZero: () => {
+      setCurrent(0)
+    }
+  }
+
+  
+
   return (
     <div className="flex flex-wrap w-screen bg-black min-h-screen text-white overflow-hidden">
       {/* Main content */}
@@ -57,6 +95,7 @@ export default function TypoIndex() {
                   // onClick={goToTypo}
                 >
                   <Link href="/typography/alltypo">View Typography Arts</Link>
+                  {/* <span>Current Counting {current}</span> */}
                 </button>
               </div>
 
@@ -81,23 +120,23 @@ export default function TypoIndex() {
           {/* Right */}
           <div className="col-span-1 h-full">
             <div className="flex-col h-screen relative">
-              <div className="pl-10 absolute -right-10 -bottom-20">
-                <InfiniteLoop data={svgUrl} duration={700} size={250} />
+              <div className="pl-10 absolute right-20 bottom-20">
+                {/* <InfiniteLoop data={svgUrl} duration={700} size={250} /> */}
 
-                {/* <Image
-                    src="https://res.cloudinary.com/olawalessed/image/upload/v1631539885/Typography%20project/SVG/z_uj3l1n.svg"
-                    width={332}
-                    height={332}
-                    className=""
-                  /> */}
+                <Image
+                  src={svgUrl[current]}
+                  width={250}
+                  height={250}
+                  className=""
+                />
               </div>
             </div>
           </div>
         </div>
-      {/* Straight line */}
-      <div>
-        <div className="w-lg h-0.5 bg-white mb-10 mx-20"></div>
-      </div>
+        {/* Straight line */}
+        <div>
+          <div className="w-lg h-0.5 bg-white mb-10 mx-20"></div>
+        </div>
       </div>
     </div>
   );

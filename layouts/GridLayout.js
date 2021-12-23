@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function GridLayout({ children }) {
     return (
-      <div>
+      <div className="min-h-screens">
         <Head>
           <link
             type="stylesheet"
