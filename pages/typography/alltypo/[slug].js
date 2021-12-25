@@ -11,7 +11,6 @@ export default function Slug({item}) {
     
     // Return the length of all item
     const charLength = fileLoader().length
-    // console.log(charLength)
 
     return (
       <div>

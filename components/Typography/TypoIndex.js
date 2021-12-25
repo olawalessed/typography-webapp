@@ -12,7 +12,7 @@ export default function TypoIndex() {
     return router.push('/typography/alltypo')
   }
 
-  console.log(svgUrl.length)
+  // console.log(svgUrl.length)
 
   // Counting state
   const [current, setCurrent] = useState(0)

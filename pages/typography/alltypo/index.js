@@ -8,11 +8,6 @@ export default function AllTypography() {
 
   const router = useRouter()
 
-//   const handleViewSingleTypography = () => {
-//  return router.push({`/typography/alltypo/`});
-  
-
-//   }
 
   return (
     <div className="flex bg-black min-h-screen text-white overflow-hidden">

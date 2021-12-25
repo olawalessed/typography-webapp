@@ -13,7 +13,7 @@ export default function Hero() {
     setLoading(true);
     const pageLoad = setTimeout(() => {
       setLoading(false);
-      console.log("I stopped loading");
+      
     }, 5000);
     return () => {
       clearTimeout(pageLoad);
