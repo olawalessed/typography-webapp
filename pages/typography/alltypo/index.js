@@ -4,7 +4,7 @@ import Image from "next/image";
 import { svgUrl } from "../../../components/Typography/TypoIndex";
 import { useRouter } from "next/router";
 
-export default function allTypography() {
+export default function AllTypography() {
 
   const router = useRouter()
 

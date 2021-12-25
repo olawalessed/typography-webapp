@@ -2,10 +2,7 @@ import GridLayout from "../layouts/GridLayout";
 import Link from 'next/link'
 import Hero from "../components/LandingPage/Hero";
 import { useEffect, useState } from "react";
-import Rings from "react-loading-icons/dist/components/rings";
-
-
-
+import LoadingIcons from "react-loading-icons";
 
 export default function Index() {
 
@@ -20,7 +17,7 @@ export default function Index() {
     const pageLoad = setTimeout(() => {
       setLoading(false)
       console.log("I stopped loading")
-    }, 3500);
+    }, 5000);
     return () => {
       clearTimeout(pageLoad)
     }
@@ -28,10 +25,8 @@ export default function Index() {
 
 
   return (
-    <div>
-      <GridLayout>
-        {loading ? <Rings /> : <Hero />}
-      </GridLayout>
-    </div>
+    <GridLayout>
+      <Hero />
+    </GridLayout>
   );
 }
